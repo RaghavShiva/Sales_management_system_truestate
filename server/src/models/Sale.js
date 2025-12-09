@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 const SaleSchema = new mongoose.Schema({
+    transactionId: String,
     customerId: String,
     customerName: String,
     phoneNumber: String,
